@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const SingIn = () => {
   const [credentials, setCredentials] = useState({
     name: "",
     email: "",
     password: "",
-    location: "",  // Ensure this matches your backend field name
+    location: "",
   });
+
+  // Initialize useNavigate for redirection
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,13 +19,21 @@ export const SingIn = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(credentials),  // Send the entire credentials object
+      body: JSON.stringify(credentials),
     });
-    
+
     const json = await response.json();
     console.log(json);
-    if(!json.success){
-      alert("Enter Valid credentials")
+
+    if (json.success) {
+      // Store the auth token in local storage
+      localStorage.setItem("authToken", json.authToken);
+
+      // Redirect to home page after successful signup
+      navigate("/");
+    } else {
+      // Show an alert for invalid credentials
+      alert("User already exists or invalid credentials. Please try again.");
     }
   };
 
@@ -62,7 +73,7 @@ export const SingIn = () => {
           <input
             type="text"
             className="form-control"
-            name="location"  // Ensure this is "location"
+            name="location"
             value={credentials.location}
             placeholder="Location eg: xyz col, New Delhi"
             onChange={onChange}
@@ -82,7 +93,7 @@ export const SingIn = () => {
         </div>
 
         <button type="submit" className="btn btn-success m-3">
-          Submit
+          Sing Up
         </button>
         <Link to="/Login" className="m-3 btn btn-dark">
           Go to Login
