@@ -1,14 +1,18 @@
 import React from 'react'
+// foodOption = {filteredItem.options}
+export const Cards = (props) => {
 
-export const Cards = () => {
+  let options = props.foodOption;
+  let foodDeleverOptions = Object.keys(options)
+
   return (
     <div>
         <div className="card mt-3 shadow bg-slate-500" style={{width: "100%", maxWidth: "18rem", minWidth: "13rem"}}>
-          <img src="./../../public/photos/photo-1414235077428-338989a2e8c0.jpeg" className="card-img-top" alt="..." />
+          <img src={props.foodimage} className="card-img-top" style={{"maxHeight": "250px", "minHeight": "249px", "objectFit": 'cover'}} alt="..." />
           <div className="card-body">
-            <h5 className="card-title ">Card title</h5>
+            <h5 className="card-title ">{props.foodname}</h5>
             <p className="card-text">
-              text something
+              {props.foodDiscription}
             </p>
             <div className="container w-100">
                 <select name="" className="m-2 h-100 w-40 bg-success rounded" id="">
@@ -19,8 +23,9 @@ export const Cards = () => {
                     })}
                 </select>
                 <select  className="m-2 h-100 w-50 bg-success rounded" id="">
-                    <option value="half">Half</option>
-                    <option value="full">Full</option>
+                    {foodDeleverOptions.map((data)=> {
+                      return <option key={data} value={data}>{data}</option>
+                    })}
                 </select>
                 <div className="d-inline h-100 fs-5">
                     Total Price
