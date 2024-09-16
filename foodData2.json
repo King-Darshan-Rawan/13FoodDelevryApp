@@ -1,0 +1,508 @@
+[
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Chicken Fried Rice",
+        "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Paneer Biryani",
+        "img": "https://images.unsplash.com/photo-1618401474156-e79122d6cf8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "150",
+                "full": "280"
+            }
+        ],
+        "description": "Aromatic basmati rice cooked with marinated paneer cubes and traditional spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Mutton Biryani",
+        "img": "https://images.unsplash.com/photo-1608219958640-2b1f4f1b2d50?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "250",
+                "full": "450"
+            }
+        ],
+        "description": "Rich, flavorful basmati rice layered with tender mutton and fragrant spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Egg Biryani",
+        "img": "https://images.unsplash.com/photo-1591091287741-9fbc7f6a369c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "120",
+                "full": "220"
+            }
+        ],
+        "description": "Classic biryani made with boiled eggs, fragrant rice, and traditional spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Prawn Biryani",
+        "img": "https://images.unsplash.com/photo-1618374101372-25d4df3c0c5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "220",
+                "full": "400"
+            }
+        ],
+        "description": "Succulent prawns cooked with aromatic spices and layered with basmati rice."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Vegetable Biryani",
+        "img": "https://images.unsplash.com/photo-1599785209707-20db84c64b15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "130",
+                "full": "240"
+            }
+        ],
+        "description": "A medley of vegetables cooked with basmati rice and a blend of spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Hyderabadi Biryani",
+        "img": "https://images.unsplash.com/photo-1607324120208-94d1b0ff1fb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "180",
+                "full": "320"
+            }
+        ],
+        "description": "A traditional Hyderabadi dish made with tender meat, basmati rice, and saffron."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Fish Biryani",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "200",
+                "full": "370"
+            }
+        ],
+        "description": "Delicate fish fillets cooked with fragrant rice and a rich blend of spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Keema Biryani",
+        "img": "https://images.unsplash.com/photo-1609017338622-e646445733b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "190",
+                "full": "350"
+            }
+        ],
+        "description": "Ground mutton cooked with basmati rice and traditional biryani spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Chicken Pulao",
+        "img": "https://images.unsplash.com/photo-1607473126744-c4cb6fc805ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "140",
+                "full": "250"
+            }
+        ],
+        "description": "A lighter alternative to biryani, made with chicken, basmati rice, and mild spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Lamb Biryani",
+        "img": "https://images.unsplash.com/photo-1579783900794-b4ff8cb59477?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "240",
+                "full": "420"
+            }
+        ],
+        "description": "Tender lamb pieces cooked with basmati rice, saffron, and rich spices."
+    },    
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Veg Fried Rice",
+        "img": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnJTIwZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "110",
+                "full": "200"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Fish Biryani",
+        "img": "https://media.istockphoto.com/photos/king-fish-biryani-with-raita-served-in-a-golden-dish-isolated-on-dark-picture-id1409942571?b=1&k=20&m=1409942571&s=170667a&w=0&h=ozlMJf5hsDmS2sSdEdBWnoSZOEITef4qGMeWeq2lyTc=",
+        "options": [
+            {
+                "half": "200",
+                "full": "320"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Chicken Biryani",
+        "img": "https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
+        "options": [
+            {
+                "half": "170",
+                "full": "300"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Veg Biryani",
+        "img": "https://media.istockphoto.com/photos/veg-biryani-picture-id1363306527?b=1&k=20&m=1363306527&s=170667a&w=0&h=VCbro7CX8nq2kruynWOCO2GbMGCea2dDJy6O6ebCKD0=",
+        "options": [
+            {
+                "half": "150",
+                "full": "260"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Prawns Fried Rice",
+        "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027__340.jpg",
+        "options": [
+            {
+                "half": "120",
+                "full": "220"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Starter",
+        "name": "Chilli Paneer",
+        "img": "https://media.istockphoto.com/photos/spicy-paneer-or-chilli-paneer-or-paneer-tikka-or-cottage-cheese-in-picture-id697316634?b=1&k=20&m=697316634&s=170667a&w=0&h=bctfHdYTz9q2dJUnuxGRDUUwC9UBWjL_oQo5ECVVDAs=",
+        "options": [
+            {
+                "half": "120",
+                "full": "200"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Starter",
+        "name": "Paneer 65",
+        "img": "https://media.istockphoto.com/photos/paneer-tikka-kabab-in-red-sauce-is-an-indian-dish-made-from-chunks-of-picture-id1257507446?b=1&k=20&m=1257507446&s=170667a&w=0&h=Nd7QsslbvPqOcvwu1bY0rEPZXJqwoKTYCal3nty4X-Y=",
+        "options": [
+            {
+                "half": "150",
+                "full": "260"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Starter",
+        "name": "Chicken Tikka",
+        "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHRpa2thfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "170",
+                "full": "300"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Starter",
+        "name": "Paneer Tikka",
+        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "options": [
+            {
+                "half": "170",
+                "full": "250"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Pizza",
+        "name": "Chicken Cheese Pizza",
+        "img": "https://media.istockphoto.com/photos/double-topping-pizza-on-the-wooden-desk-isolated-picture-id1074109872?k=20&m=1074109872&s=612x612&w=0&h=JoYwwTfU_mMBykXpRB_DmgeecfotutOIO9pV5_JObpk=",
+        "options": [
+            {
+                "regular": "120",
+                "medium": "230",
+                "large": "350"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Pizza",
+        "name": "Mix Veg Pizza",
+        "img": "https://media.istockphoto.com/photos/chinese-food-veg-pizza-picture-id1341905237?k=20&m=1341905237&s=612x612&w=0&h=Lbuza1Ig5cC1PwQhqTsq-Uac8hg1W-V0Wx4d4lqDeB0=",
+        "options": [
+            {
+                "regular": "100",
+                "medium": "200",
+                "large": "300"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Butter Chicken",
+        "img": "https://images.unsplash.com/photo-1595245966769-8b39f6d8a0a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "180",
+                "full": "320"
+            }
+        ],
+        "description": "A rich, creamy tomato-based curry with succulent chicken pieces."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Paneer Tikka Masala",
+        "img": "https://images.unsplash.com/photo-1601163815809-892f6ef0a1a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "160",
+                "full": "280"
+            }
+        ],
+        "description": "Grilled paneer cubes simmered in a spicy tomato and cream sauce."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Rogan Josh",
+        "img": "https://images.unsplash.com/photo-1608219980860-e3a13c95f8f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "220",
+                "full": "400"
+            }
+        ],
+        "description": "A traditional Kashmiri lamb curry with aromatic spices and a deep red color."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Dal Makhani",
+        "img": "https://images.unsplash.com/photo-1600977272693-8240b1d765cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "120",
+                "full": "220"
+            }
+        ],
+        "description": "A rich and creamy lentil curry made with black lentils and kidney beans."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Fish Curry",
+        "img": "https://images.unsplash.com/photo-1608219958837-3c85336f3814?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "200",
+                "full": "370"
+            }
+        ],
+        "description": "A spicy and tangy curry made with fresh fish and traditional spices."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Chana Masala",
+        "img": "https://images.unsplash.com/photo-1599787631405-45fd75d2e2ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "110",
+                "full": "200"
+            }
+        ],
+        "description": "A flavorful curry made with chickpeas, tomatoes, and a blend of spices."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Chicken Korma",
+        "img": "https://images.unsplash.com/photo-1595228873162-4a00ef89bc98?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "190",
+                "full": "350"
+            }
+        ],
+        "description": "A mild, creamy curry made with chicken, yogurt, and fragrant spices."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Mutton Vindaloo",
+        "img": "https://images.unsplash.com/photo-1600321157232-ea28d1656d91?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "230",
+                "full": "420"
+            }
+        ],
+        "description": "A spicy Goan curry made with marinated mutton and vinegar."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Aloo Gobi",
+        "img": "https://images.unsplash.com/photo-1605459828154-1d8aaefcd645?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "130",
+                "full": "240"
+            }
+        ],
+        "description": "A vegetarian curry made with potatoes, cauliflower, and a blend of spices."
+    },
+    {
+        "CategoryName": "Curry/Gravy",
+        "name": "Goan Prawn Curry",
+        "img": "https://images.unsplash.com/photo-1608219958640-2b1f4f1b2d50?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "half": "240",
+                "full": "440"
+            }
+        ],
+        "description": "A tangy and spicy prawn curry with coconut milk, tamarind, and Goan spices."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Garlic Naan",
+        "img": "https://images.unsplash.com/photo-1608135917544-4db527fb8da5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "50",
+                "large": "90"
+            }
+        ],
+        "description": "Soft and fluffy naan topped with garlic and butter, cooked in a tandoor."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Tandoori Roti",
+        "img": "https://images.unsplash.com/photo-1618401474156-e79122d6cf8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "30",
+                "large": "50"
+            }
+        ],
+        "description": "Whole wheat flatbread cooked in a tandoor until crisp and golden."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Butter Naan",
+        "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "40",
+                "large": "80"
+            }
+        ],
+        "description": "A soft naan bread brushed with melted butter, perfect for dipping in curries."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Lachha Paratha",
+        "img": "https://images.unsplash.com/photo-1603126856215-4baf9c6be623?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "60",
+                "large": "110"
+            }
+        ],
+        "description": "A multi-layered flaky paratha made with whole wheat flour."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Paneer Kulcha",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "80",
+                "large": "140"
+            }
+        ],
+        "description": "Stuffed bread filled with spiced paneer, baked in a tandoor."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Pudina Paratha",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "70",
+                "large": "130"
+            }
+        ],
+        "description": "A mint-flavored paratha, perfect for pairing with spicy curries."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Aloo Paratha",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "60",
+                "large": "110"
+            }
+        ],
+        "description": "Stuffed paratha filled with spiced mashed potatoes, served with yogurt."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Cheese Naan",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "90",
+                "large": "160"
+            }
+        ],
+        "description": "A soft naan filled with melted cheese, perfect for a rich treat."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Missi Roti",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "50",
+                "large": "90"
+            }
+        ],
+        "description": "A spiced whole wheat and gram flour bread, cooked in a tandoor."
+    },
+    {
+        "CategoryName": "Bread/Indian Bread",
+        "name": "Onion Kulcha",
+        "img": "https://images.unsplash.com/photo-1601081705541-e7c22b3a7b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "options": [
+            {
+                "regular": "70",
+                "large": "130"
+            }
+        ],
+        "description": "Stuffed bread filled with spiced onions, baked until crisp."
+    }       
+]

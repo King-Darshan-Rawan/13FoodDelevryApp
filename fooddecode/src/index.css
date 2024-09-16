@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Playfair Display => normal*/
+/* Baskervville SC => capitalized */
+*{
+  font-family: 'Playfair Display';
+  font-size: large;
+}
+.fontCaps{
+  font-family: 'Baskervville SC';
+}
+#carousel{
+  max-height: 700px;
+  /* max-width: max-content; */
+}
+.carousel-item{
+  object-fit: contain;
+}
