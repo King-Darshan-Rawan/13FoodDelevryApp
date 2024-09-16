@@ -19,6 +19,11 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
+    const existingUser = await User.findOne({ email: req.body.email });
+      if (existingUser) {
+        // alert("Hai");
+        return res.status(400).json({ success: false, error: 'User already exists' });
+      }
 
     const salt = await bcrypt.genSalt(10);
     let securePassword = await bcrypt.hash(req.body.password,salt)
