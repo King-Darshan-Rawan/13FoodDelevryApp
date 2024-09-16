@@ -60,7 +60,7 @@ export const Login = () => {
           />
         </div>
         <button type="submit" className="btn btn-success m-3">
-          Submit
+          Log-In
         </button>
         <Link to="/SingIn" className="m-3 btn btn-dark">
           Go to Sign-Up
