@@ -9,96 +9,103 @@ export const SingIn = () => {
     location: "",
   });
 
-  // Initialize useNavigate for redirection
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/createUser", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(credentials),
-    });
-
-    const json = await response.json();
-    console.log(json);
-
-    if (json.success) {
-      // Store the auth token in local storage
-      localStorage.setItem("authToken", json.authToken);
-
-      // Redirect to home page after successful signup
-      navigate("/");
-    } else {
-      // Show an alert for invalid credentials
-      alert("User already exists or invalid credentials. Please try again.");
+    try {
+      const response = await fetch("http://localhost:5000/api/createUser", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(credentials),
+      });
+  
+      const json = await response.json();
+      // console.log("Response JSON:", json); 
+  
+      if (json.success && json.authToken) {
+        localStorage.setItem("authToken", json.authToken);
+        localStorage.setItem("userEmail", credentials.email); // Save the user's email
+        // console.log("Auth Token and Email Saved:", localStorage.getItem("authToken"), localStorage.getItem("userEmail"));
+        navigate("/");
+      }
+       else {
+        alert("User already exists or invalid credentials. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error during signup:", error);
+      alert("An error occurred. Please try again.");
     }
   };
+  
 
   const onChange = (event) => {
     setCredentials({ ...credentials, [event.target.name]: event.target.value });
   };
 
   return (
-    <div className="container">
-      <form onSubmit={handleSubmit} className="mt-4 p-4">
-        <div className="form-group">
-          <label htmlFor="exampleInputName">Name</label>
-          <input
-            type="text"
-            className="form-control"
-            name="name"
-            value={credentials.name}
-            placeholder="Name eg: Narendra Modi"
-            onChange={onChange}
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Email address</label>
-          <input
-            type="email"
-            className="form-control"
-            name="email"
-            value={credentials.email}
-            placeholder="Email eg: narendramodi@gmail.com"
-            onChange={onChange}
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="exampleInputLocation">Location</label>
-          <input
-            type="text"
-            className="form-control"
-            name="location"
-            value={credentials.location}
-            placeholder="Location eg: xyz col, New Delhi"
-            onChange={onChange}
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            className="form-control"
-            name="password"
-            value={credentials.password}
-            placeholder="Password eg: 123456789"
-            onChange={onChange}
-          />
-        </div>
-
-        <button type="submit" className="btn btn-success m-3">
-          Sing Up
-        </button>
-        <Link to="/Login" className="m-3 btn btn-dark">
-          Go to Login
-        </Link>
-      </form>
+    <div className="container d-flex justify-content-center align-items-center min-vh-100">
+      <div className="card shadow-sm p-4" style={{ maxWidth: "90%", width: "500px" }}>
+        <h2 className="text-center mb-4 fontCapslocal">Sign Up</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">Name</label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              name="name"
+              value={credentials.name}
+              placeholder="Name eg: Narendra Modi"
+              onChange={onChange}
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">Email address</label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              name="email"
+              value={credentials.email}
+              placeholder="Email eg: narendramodi@gmail.com"
+              onChange={onChange}
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="location" className="form-label">Location</label>
+            <input
+              type="text"
+              className="form-control"
+              id="location"
+              name="location"
+              value={credentials.location}
+              placeholder="Location eg: xyz col, New Delhi"
+              onChange={onChange}
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="password" className="form-label">Password</label>
+            <input
+              type="password"
+              className="form-control"
+              id="password"
+              name="password"
+              value={credentials.password}
+              placeholder="Password eg: 123456789"
+              onChange={onChange}
+            />
+          </div>
+          <button type="submit" className="btn btn-success w-100 mb-3">
+            Sign Up
+          </button>
+          <Link to="/Login" className="btn btn-dark w-100">
+            Go to Login
+          </Link>
+        </form>
+      </div>
     </div>
   );
 };
