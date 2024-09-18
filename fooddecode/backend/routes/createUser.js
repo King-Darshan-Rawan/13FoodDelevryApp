@@ -12,36 +12,47 @@ router.post(
     body('email', 'Please provide a valid email address').isEmail(),
     body('password', 'Password must be at least 8 characters long').isLength({ min: 8 }),
     body('name', 'Name must be at least 5 characters long').isLength({ min: 5 }),
-    body('location', 'Location is required').notEmpty(), // Add validation for location
+    body('location', 'Location is required').notEmpty(),
   ],
   async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
+
     const existingUser = await User.findOne({ email: req.body.email });
-      if (existingUser) {
-        // alert("Hai");
-        return res.status(400).json({ success: false, error: 'User already exists' });
-      }
+    if (existingUser) {
+      return res.status(400).json({ success: false, error: 'User already exists' });
+    }
 
     const salt = await bcrypt.genSalt(10);
-    let securePassword = await bcrypt.hash(req.body.password,salt)
+    let securePassword = await bcrypt.hash(req.body.password, salt);
 
     try {
-      await User.create({
+      const newUser = await User.create({
         name: req.body.name,
         location: req.body.location,
         email: req.body.email,
         password: securePassword,
       });
-      res.json({ success: true });
+
+      // Generate authToken after successful user creation
+      const data = {
+        user: {
+          id: newUser.id
+        }
+      };
+      const authToken = jwt.sign(data, jwtseac);
+
+      // Send the token along with success response
+      res.json({ success: true, authToken });
     } catch (error) {
       console.log(error);
       res.status(500).json({ success: false, error: 'Server error' });
     }
   }
 );
+
 
 router.post(
     '/loginUser',
